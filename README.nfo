@@ -1,0 +1,26 @@
+┌──────────────────────────────────────────────────────────────┐
+│  R U N E                                   [ KRZ ]   krz.sh  │
+└──────────────────────────────────────────────────────────────┘
+
+ARCHIVED
+  no longer maintained. i don't use njalla anymore. open to
+  reconsidering if there's interest or a contributor.
+
+WHAT
+  njalla on ios. native client for managing a njalla account:
+  domains, dns, api tokens, account balance. built with swiftui,
+  urlsession, and the njalla http api. no web ui needed.
+
+DOES
+  - domains: list, view details
+  - dns: view, add, edit, delete records
+  - api tokens: list, create with restrictions, delete
+  - account: view wallet balance
+
+AUTH
+  api tokens only. no username or password. the token is validated on
+  first launch and stored in the keychain.
+
+┌──────────────────────────────────────────────────────────────┐
+│  krz.sh                                                      │
+└──────────────────────────────────────────────────────────────┘
